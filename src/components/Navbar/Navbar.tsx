@@ -94,9 +94,8 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 
 export default function PersistentDrawerLeft() {
   const theme = useTheme();
-  const apiKey: string | undefined = process.env.REACT_APP_API_KEY_NEWS || "";
-  const baseURL: string | undefined =
-    `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}` || "";
+  const apiKey = process.env.REACT_APP_API_KEY_NEWS;
+  const baseURL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
   const [news, setNews] = useState<any[]>([]);
   const [topic, setTopic] = useState<string>("Top Stories");
   const [query, setQuery] = useState<string>(baseURL);
