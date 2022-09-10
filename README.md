@@ -1,9 +1,9 @@
-ニュースアプリ
+# News App with weather
 https://marvelous-narwhal-bbaf5b.netlify.app/
 
-newsapiの無料プランを使用しているため、netlify上ではnewsapiは動きません...
+Since I use free plan of newsapi, it works in local environment but not on netlify...
 
-ローカル環境でのプレビュー
+# Preview at the local env
 <img width="1680" alt="スクリーンショット 2022-05-08 11 02 12" src="https://user-images.githubusercontent.com/85789574/167355234-70085bd1-0513-486c-8b9e-13bfd32098b7.png">
 
 ジャンル別
